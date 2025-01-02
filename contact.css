@@ -1,0 +1,119 @@
+  /* Contact Section */
+  .contact-container {
+    max-width: 1200px;
+    margin: 120px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5rem;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    background: var(--gradient-bg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .contact-container p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 30px;
+    line-height: 1.8;
+  }
+  
+  /* Contact Form */
+  .contact-form {
+    background: var(--form-bg);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-form:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  }
+  
+  .contact-form label {
+    font-size: 1rem;
+    color: var(--text-color);
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: var(--input-bg);
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: var(--main-color);
+    box-shadow: 0 4px 10px rgba(255, 112, 42, 0.4);
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 120px;
+  }
+  
+  .contact-form button {
+    background: var(--gradient-bg);
+    color: var(--text-color);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background: var(--btn-hover);
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(230, 81, 0, 0.4);
+  }
+  
+  /* Contact Information */
+  .contact-info {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    margin-bottom: 20px;
+  }
+  
+  .contact-info .info-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+  
+  .contact-info .info-item i {
+    margin-right: 10px;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+  }
+  
+  .contact-info .info-item:hover i {
+    transform: scale(1.2);
+  }
